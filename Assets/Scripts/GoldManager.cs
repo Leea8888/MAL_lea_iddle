@@ -29,6 +29,7 @@ public class GoldManager : MonoBehaviour
             goldText.text = goldAmount.ToString("00");
 
             power += 1;
+            powerText.text = power.ToString("00");
         }
     }
     // Update is called once per frame

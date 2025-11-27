@@ -516,7 +516,7 @@ GameObject:
   - component: {fileID: 557999050}
   - component: {fileID: 557999049}
   m_Layer: 5
-  m_Name: Text_SCORE_gold
+  m_Name: Text_SCORE_goldTomato
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -872,7 +872,7 @@ GameObject:
   - component: {fileID: 701955251}
   - component: {fileID: 701955250}
   m_Layer: 5
-  m_Name: Cadre_SCORE_gold
+  m_Name: Cadre_SCORE_goldTomato
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1101,7 +1101,7 @@ GameObject:
   - component: {fileID: 960800095}
   - component: {fileID: 960800094}
   m_Layer: 5
-  m_Name: Text_WinGold
+  m_Name: TEXT_WinTomato
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1146,7 +1146,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: WinGold
+  m_text: 'Win Tomato
+
+    CLIC'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1238,7 +1240,7 @@ GameObject:
   - component: {fileID: 1184803515}
   - component: {fileID: 1184803514}
   m_Layer: 5
-  m_Name: Button_WINGold
+  m_Name: Button_WINTomato
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1688,7 +1690,7 @@ GameObject:
   - component: {fileID: 1638306059}
   - component: {fileID: 1638306058}
   m_Layer: 5
-  m_Name: Text_GOLD
+  m_Name: Text_GOLD_Tomato
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1711,7 +1713,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 133.9462, y: 0}
+  m_SizeDelta: {x: 189.2113, y: 0}
   m_Pivot: {x: 1, y: 0}
 --- !u!114 &1638306058
 MonoBehaviour:
@@ -1733,7 +1735,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: GOLD
+  m_text: TOMATO
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1798,7 +1800,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: -4.605423, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
