@@ -14,17 +14,23 @@ public class GoldManager : MonoBehaviour
     public TextMeshProUGUI sauceText;
     public TextMeshProUGUI pastryText;
     public TextMeshProUGUI rollingPinText;
+    public GameObject cadrePause;
+
+    public bool isPause;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+       cadrePause.SetActive(false);
     }
 
     public void ChangeTomato()
     {
-        tomatoAmount += 1;
-        tomatoText.text = tomatoAmount.ToString("00");
+        if (isPause == false)
+        {
+            tomatoAmount += 1;
+            tomatoText.text = tomatoAmount.ToString("00");
+        }
     }
 
     public void ChangeSauce()
@@ -63,6 +69,14 @@ public class GoldManager : MonoBehaviour
             StartCoroutine(provokeAutoTomato());
         }
     }
+
+    public void DontClic()
+    {
+        cadrePause.SetActive(!cadrePause.activeInHierarchy);
+        isPause = !isPause;
+    }
+
+
      // Update is called once per frame
         void Update()
         {
@@ -73,8 +87,8 @@ public class GoldManager : MonoBehaviour
         {
             while (true)
             {
-            yield return new WaitForSeconds(2);
-            ChangeTomato();
+                yield return new WaitForSeconds(2);
+                ChangeTomato();
             }
 
         }
